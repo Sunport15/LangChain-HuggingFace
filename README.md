@@ -1,7 +1,3 @@
-Here's an improved version with detailed steps, proper markdown formatting, and clear instructions:
-
----
-
 # Langchain-Transformers-Python
 
 This guide walks you through setting up a Python environment, installing dependencies, configuring GPU usage, and running a transformer model with LangChain.
