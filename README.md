@@ -1,6 +1,6 @@
 # Langchain-Transformers-Python
 
-This guide walks you through setting up a Python environment, installing dependencies, configuring GPU usage, and running a transformer model with LangChain.
+Steps to setting up a Python environment, installing dependencies, configuring GPU usage, and running few transformer models with LangChain.
 
 ---
 
@@ -14,20 +14,12 @@ python -m venv langchain-env
 langchain-env\Scripts\activate
 ```
 
-### **For macOS/Linux (Terminal)**
-```sh
-python -m venv langchain-env
-source langchain-env/bin/activate
-```
-
----
-
 ## 2. Install Requirements
 
 Once the virtual environment is activated, install the required dependencies.
 
 ```sh
-pip install langchain transformers langchain-huggingface
+pip install langchain transformers<5 langchain-huggingface
 ```
 
 ---
@@ -110,4 +102,3 @@ If using a CPU instead of a GPU, change `device=0` to `device=-1`.
 
 ---
 
-Now you’re ready to use **LangChain and Transformers** with GPU acceleration! 🚀
